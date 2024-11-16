@@ -79,7 +79,7 @@ function App() {
         </div>
 
       </section>
-      <div className={!PopUp ? "popup" : "popup active"} >
+      <div className={!PopUp ? "popup" : "active"} >
         <p> {` ${count == 0 ? "welcome" : "Wow, your count is " + count} `}</p>
       </div>
     </>
